@@ -127,19 +127,19 @@ export function MainContent() {
   
   const heroSlides = [
     {
-      image: "https://images.unsplash.com/photo-1590117075775-603126f5f3e0?q=80&w=2000&auto=format&fit=crop",
+      image: "https://visible-jade-zlxwydahf7.edgeone.app/1.jpg?q=80&w=2000&auto=format&fit=crop",
       tag: "Established 1984 — Rajkot",
       title: <>The <span className="font-bold italic text-accent">Alchemy</span> <br/> of Precision.</>,
       desc: "Engineering architectural brass hardware with industrial rigor and artisanal soul. Built for longevity, designed for distinction."
     },
     {
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2000&auto=format&fit=crop",
+      image: "https://convenient-amaranth-vcnylcil5l.edgeone.app/4.jpg?q=80&w=2000&auto=format&fit=crop",
       tag: "Engineering Excellence",
       title: <>Industrial <span className="font-bold italic text-accent">Strength</span> <br/> Refined.</>,
       desc: "From heavy-duty hinges to aesthetic architectural accents, our components exceed international benchmarks for durability."
     },
     {
-      image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=2000&auto=format&fit=crop",
+      image: "https://acute-peach-k8wcqwmz2l.edgeone.app/2.jpg?q=80&w=2000&auto=format&fit=crop",
       tag: "Global Footprint",
       title: <>Generations <br/> of <span className="font-bold italic text-accent">Trust</span>.</>,
       desc: "A legacy of 35+ years serving 12,000+ global architectural partners with bespoke hardware solutions."
@@ -765,55 +765,55 @@ export function MainContent() {
               {
                 title: "Imperial Series Hinge",
                 category: "Architectural Fittings",
-                image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=1200",
+                image: "https://kind-salmon-14kwvb7w54.edgeone.app/Artboard%207.png?q=80&w=1200",
                 span: "md:col-span-2 md:row-span-1" // Wide
               },
               {
                 title: "Satin Lever Handle",
                 category: "Hardware",
-                image: "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%201%20(2).png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-1" // Standard
               },
               {
                 title: "Vintage Tower Bolt",
                 category: "Traditional Collection",
-                image: "https://images.unsplash.com/photo-1513519245088-0e12902e15ca?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%201.png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-1" // Standard
               },
               {
                 title: "Artisan Knobs",
                 category: "Cabinet Accents",
-                image: "https://images.unsplash.com/photo-1542156822-6924d1a71ace?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%202.png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-2" // Tall
               },
               {
                 title: "Curtain Finials",
                 category: "Drapery Systems",
-                image: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%2012.png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-1" // Standard
               },
               {
                 title: "Engraved Brass Path",
                 category: "Custom Engraving",
-                image: "https://images.unsplash.com/photo-1610963503525-4c07a3ba7090?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%204.png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-1" // Square
               },
               {
                 title: "Minimalist Brass Hook",
                 category: "Sanitary Fittings",
-                image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Contact%20pins.png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-1" // Standard
               },
               {
                 title: "Industrial Latch",
                 category: "Heavy Duty",
-                image: "https://images.unsplash.com/photo-1635338165796-7a71be7bf2d1?q=80&w=1200",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%207.png?q=80&w=1200",
                 span: "md:col-span-2 md:row-span-1" // Wide
               },
               {
                 title: "Casement Stay",
                 category: "Window Systems",
-                image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=800",
+                image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%206.png?q=80&w=800",
                 span: "md:col-span-1 md:row-span-1" // Square
               }
             ].map((item, idx) => (
