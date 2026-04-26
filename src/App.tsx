@@ -210,7 +210,7 @@ export function MainContent() {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <a href="#" className="flex items-center">
             <img 
-              src="https://kommodo.ai/i/ZU0IchrvloEdzWug2HFo" 
+              src="https://fancy-harlequin-ipyvwodwrb.edgeone.app/PT_LOGO-01.png" 
               alt="PRIMETURN COMPONENTS" 
               className="h-8 md:h-10 w-auto"
             />
@@ -1068,7 +1068,7 @@ export function MainContent() {
             <div>
               <div className="mb-6">
                 <img 
-                  src="https://storage.googleapis.com/static.quick-canvas.com/public-assets/obw3mo3begvnffwge4qf22/logo.png" 
+                  src="https://fancy-harlequin-ipyvwodwrb.edgeone.app/PT_LOGO-01.png" 
                   alt="PRIMETURN COMPONENTS" 
                   className="h-12 w-auto"
                 />
