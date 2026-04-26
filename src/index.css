@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --color-paper: #FCFCFA;
+  --color-ink: #0F0F0F;
+  --color-accent: #EE4E4E;
+  --color-steel: #F0F0EE;
+}
+
+@layer base {
+  body {
+    @apply bg-paper text-ink/80 font-sans selection:bg-accent/20 selection:text-ink;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-paper/60 backdrop-blur-md border-b border-ink/5;
+  }
+  
+  .accent-glow {
+    @apply hover:shadow-[0_0_25px_rgba(238,78,78,0.2)] transition-all duration-300;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-paper;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-200 hover:bg-accent/40 transition-colors;
+}
+
+/* Animation utilities for intersection observer */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
