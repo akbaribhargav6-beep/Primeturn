@@ -396,7 +396,7 @@ export function MainContent() {
       </section>
  
       {/* Advanced Products Ledger Section */}
-      <section id="products" className="py-24 bg-paper relative overflow-hidden border-y border-ink/5">
+      <section id="products" className="py-16 md:py-24 bg-paper relative overflow-hidden border-y border-ink/5">
         {/* Engineering Grid Background */}
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -410,10 +410,10 @@ export function MainContent() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="flex flex-col lg:flex-row gap-16 items-start">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
             {/* Left: Interactive Display Area */}
-            <div className="w-full lg:w-3/5 sticky top-32">
-              <div className="relative aspect-[4/5] md:aspect-square overflow-hidden bg-ink/5 border border-ink/10 rounded-sm">
+            <div className="w-full lg:w-3/5 lg:sticky lg:top-32">
+              <div className="relative aspect-square sm:aspect-square md:aspect-video lg:aspect-square overflow-hidden bg-ink/5 border border-ink/10 rounded-sm">
                 {/* Product Image Stage */}
                 <AnimatePresence mode="wait">
                   <motion.div
@@ -492,10 +492,10 @@ export function MainContent() {
             </div>
 
             {/* Right: The Ledger / Catalog List */}
-            <div className="w-full lg:w-2/5 flex flex-col gap-4">
-              <div className="mb-8">
-                <div className="text-accent text-[10px] font-black uppercase tracking-[0.4em] mb-4">The Collection</div>
-                <h2 className="text-4xl font-light text-ink tracking-tighter leading-none uppercase">Architectural <br/> Ledger</h2>
+            <div className="w-full lg:w-2/5 flex flex-col gap-2 md:gap-4">
+              <div className="mb-6 md:mb-8">
+                <div className="text-accent text-[10px] font-black uppercase tracking-[0.4em] mb-2 md:mb-4">The Collection</div>
+                <h2 className="text-3xl md:text-4xl font-light text-ink tracking-tighter leading-tight uppercase text-balance">Architectural <br className="hidden md:block"/> Ledger</h2>
               </div>
 
               {[
@@ -760,61 +760,61 @@ export function MainContent() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[250px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[250px]">
             {[
               {
                 title: "Imperial Series Hinge",
                 category: "Architectural Fittings",
                 image: "https://kind-salmon-14kwvb7w54.edgeone.app/Artboard%207.png?q=80&w=1200",
-                span: "md:col-span-2 md:row-span-1" // Wide
+                span: "sm:col-span-2 sm:row-span-1 lg:col-span-2 lg:row-span-1" // Wide
               },
               {
                 title: "Satin Lever Handle",
                 category: "Hardware",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%201%20(2).png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-1" // Standard
+                span: "sm:col-span-1 sm:row-span-1 lg:col-span-1 lg:row-span-1" // Standard
               },
               {
                 title: "Vintage Tower Bolt",
                 category: "Traditional Collection",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%201.png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-1" // Standard
+                span: "sm:col-span-1 sm:row-span-1 lg:col-span-1 lg:row-span-1" // Standard
               },
               {
                 title: "Artisan Knobs",
                 category: "Cabinet Accents",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%202.png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-2" // Tall
+                span: "sm:col-span-1 sm:row-span-2 lg:col-span-1 lg:row-span-2" // Tall
               },
               {
                 title: "Curtain Finials",
                 category: "Drapery Systems",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%2012.png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-1" // Standard
+                span: "sm:col-span-1 sm:row-span-1 lg:col-span-1 lg:row-span-1" // Standard
               },
               {
                 title: "Engraved Brass Path",
                 category: "Custom Engraving",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%204.png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-1" // Square
+                span: "sm:col-span-1 sm:row-span-1 lg:col-span-1 lg:row-span-1" // Square
               },
               {
                 title: "Minimalist Brass Hook",
                 category: "Sanitary Fittings",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Contact%20pins.png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-1" // Standard
+                span: "sm:col-span-1 sm:row-span-1 lg:col-span-1 lg:row-span-1" // Standard
               },
               {
                 title: "Industrial Latch",
                 category: "Heavy Duty",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%207.png?q=80&w=1200",
-                span: "md:col-span-2 md:row-span-1" // Wide
+                span: "sm:col-span-2 sm:row-span-1 lg:col-span-2 lg:row-span-1" // Wide
               },
               {
                 title: "Casement Stay",
                 category: "Window Systems",
                 image: "https://feminist-copper-vkcdmr8uyh.edgeone.app/Artboard%206.png?q=80&w=800",
-                span: "md:col-span-1 md:row-span-1" // Square
+                span: "sm:col-span-1 sm:row-span-1 lg:col-span-1 lg:row-span-1" // Square
               }
             ].map((item, idx) => (
               <motion.div 
@@ -823,7 +823,7 @@ export function MainContent() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.05 }}
-                className={`${item.span} group relative overflow-hidden bg-steel border border-ink/5 cursor-pointer`}
+                className={`${item.span} group relative overflow-hidden bg-steel border border-ink/5 cursor-pointer h-[250px] sm:h-auto`}
               >
                 {/* Desaturated Image */}
                 <motion.img 
@@ -844,10 +844,10 @@ export function MainContent() {
                   className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent -skew-x-12 translate-x-[-150%] pointer-events-none"
                 />
 
-                {/* Text Reveal */}
-                <div className="absolute inset-x-0 bottom-0 p-8 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out bg-gradient-to-t from-paper/90 to-transparent">
+                {/* Text Reveal - Simplified for mobile */}
+                <div className="absolute inset-x-0 bottom-0 p-6 lg:p-8 transform translate-y-full lg:group-hover:translate-y-0 lg:transition-transform lg:duration-500 lg:ease-out bg-gradient-to-t from-paper/90 to-transparent flex flex-col justify-end h-full md:h-auto lg:h-full lg:block group-hover:translate-y-0 transition-transform duration-500">
                   <p className="text-accent text-[8px] font-black uppercase tracking-[0.4em] mb-1">{item.category}</p>
-                  <h4 className="text-xl font-light text-ink uppercase tracking-tighter">{item.title}</h4>
+                  <h4 className="text-lg lg:text-xl font-light text-ink uppercase tracking-tighter">{item.title}</h4>
                 </div>
               </motion.div>
             ))}
@@ -904,14 +904,14 @@ export function MainContent() {
               </svg>
             </div>
 
-            <div className="space-y-48">
+            <div className="space-y-12 md:space-y-48">
               {[
                 {
                   id: "1993",
                   title: "Our Legacy Begins",
                   tag: "The Foundation",
                   desc: "Born in a humble Rajkot workshop, Ashok Brass Industries was founded on a singular vision: to translate the raw strength of brass into architectural precision. Our first hinges were hand-cast with a commitment to durability that remains our standard today.",
-                  icon: <History className="w-12 h-12" />,
+                  icon: <History className="w-8 h-8 md:w-12 md:h-12" />,
                   alignment: "left"
                 },
                 {
@@ -919,7 +919,7 @@ export function MainContent() {
                   title: "Engineered for Scale",
                   tag: "The Facility",
                   desc: "As demand grew, so did our technical ambition. We transitioned to high-capacity CNC precision lines, integrating robotic machining that ensures sub-micron accuracy. Today, our facility stands as a beacon of high-end manufacturing efficiency.",
-                  icon: <Settings className="w-12 h-12" />,
+                  icon: <Settings className="w-8 h-8 md:w-12 md:h-12" />,
                   alignment: "right"
                 },
                 {
@@ -927,7 +927,7 @@ export function MainContent() {
                   title: "Uncompromising Standards",
                   tag: "The ISO Seal",
                   desc: "Quality is not an inspection; it is an obsession. With ISO 9001 certification, every batch undergoes accelerated salt-spray and 500k-cycle load tests. Our 'Quality Seal' is a promise of industrial-grade perfection.",
-                  icon: <ShieldCheck className="w-12 h-12" />,
+                  icon: <ShieldCheck className="w-8 h-8 md:w-12 md:h-12" />,
                   alignment: "left"
                 },
                 {
@@ -935,7 +935,7 @@ export function MainContent() {
                   title: "Beyond Borders",
                   tag: "Global Reach",
                   desc: "Through 12,000+ global partnerships, we have carried Indian manufacturing excellence to continents across the globe. Our hardware secures doors in luxury skyscrapers from Dubai to New York.",
-                  icon: <Globe className="w-12 h-12" />,
+                  icon: <Globe className="w-8 h-8 md:w-12 md:h-12" />,
                   alignment: "right"
                 },
                 {
@@ -943,11 +943,11 @@ export function MainContent() {
                   title: "The Next Generation",
                   tag: "Vision 2030",
                   desc: "We are pivoting toward a sustainable future. Our initiatives include lead-free alloy recycling and the integration of smart-latch technologies—ensuring that the hardware of tomorrow remains as timeless as our heritage.",
-                  icon: <Zap className="w-12 h-12" />,
+                  icon: <Zap className="w-8 h-8 md:w-12 md:h-12" />,
                   alignment: "left"
                 }
               ].map((stage, idx) => (
-                <div key={idx} className={`relative flex flex-col lg:flex-row items-center gap-16 ${stage.alignment === 'right' ? 'lg:flex-row-reverse' : ''}`}>
+                <div key={idx} className={`relative flex flex-col lg:flex-row items-center gap-8 lg:gap-16 ${stage.alignment === 'right' ? 'lg:flex-row-reverse' : ''}`}>
                   {/* Content Column */}
                   <motion.div 
                     initial={{ opacity: 0, x: stage.alignment === 'left' ? -50 : 50 }}
@@ -958,8 +958,8 @@ export function MainContent() {
                   >
                     <div className="text-accent font-mono text-sm mb-4 tracking-widest">{stage.id}</div>
                     <div className="text-ink/30 text-[10px] font-black uppercase tracking-[0.4em] mb-4">{stage.tag}</div>
-                    <h3 className="text-3xl md:text-5xl font-light text-ink tracking-tighter uppercase mb-6">{stage.title}</h3>
-                    <p className="text-ink/60 font-light leading-relaxed text-base md:text-lg max-w-xl mx-auto lg:mx-0">
+                    <h3 className="text-2xl md:text-3xl lg:text-5xl font-light text-ink tracking-tighter uppercase mb-4 md:mb-6 leading-[1.1]">{stage.title}</h3>
+                    <p className="text-ink/60 font-light leading-relaxed text-sm md:text-base lg:text-lg max-w-xl mx-auto lg:mx-0">
                       {stage.desc}
                     </p>
                   </motion.div>
@@ -999,14 +999,14 @@ export function MainContent() {
       </section>
 
       {/* B2B Contact Section */}
-      <section id="contact" className="py-32 bg-steel/30">
+      <section id="contact" className="py-20 md:py-32 bg-steel/30">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-px bg-ink/5 border border-ink/5 overflow-hidden">
           {/* Left: Info */}
-          <div className="bg-paper p-12 md:p-20 flex flex-col justify-center">
+          <div className="bg-paper p-8 sm:p-12 md:p-20 flex flex-col justify-center">
             <h2 className="text-accent text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Bulk Procurement</h2>
-            <h3 className="text-4xl md:text-6xl font-light tracking-tighter text-ink mb-8 leading-[0.9]">B2B Portal <br/> & Inquiries.</h3>
+            <h3 className="text-3xl sm:text-4xl md:text-6xl font-light tracking-tighter text-ink mb-8 leading-[1.1] md:leading-[0.9]">B2B Portal <br/> & Inquiries.</h3>
             
-            <div className="space-y-8 mt-4">
+            <div className="space-y-6 md:space-y-8 mt-4">
                <div className="flex flex-col">
                  <span className="text-ink/40 text-[9px] uppercase tracking-widest font-bold mb-1">Headquarters</span>
                  <span className="text-sm font-bold text-ink">Industrial Estate, Rajkot, India</span>
@@ -1016,18 +1016,18 @@ export function MainContent() {
                  <span className="text-sm font-bold text-accent">+91 (281) 455-BRASS</span>
                </div>
                <div className="flex items-center gap-4 bg-ink/5 p-3 rounded-sm border border-ink/5 self-start pr-6">
-                <div className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center">
-                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-green-500/10 flex items-center justify-center">
+                  <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-green-500 rounded-full animate-pulse"></div>
                 </div>
-                <span className="text-[10px] uppercase tracking-widest font-bold text-ink/60">WhatsApp Inquiry Active</span>
+                <span className="text-[9px] md:text-[10px] uppercase tracking-widest font-bold text-ink/60">WhatsApp Inquiry Active</span>
               </div>
             </div>
           </div>
 
           {/* Right: Form */}
-          <div className="bg-white p-12 md:p-20 flex flex-col justify-center">
-            <form className="space-y-10" onSubmit={(e) => e.preventDefault()}>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+          <div className="bg-white p-8 sm:p-12 md:p-20 flex flex-col justify-center">
+            <form className="space-y-8 md:space-y-10" onSubmit={(e) => e.preventDefault()}>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
                 <div className="relative group">
                   <input type="text" id="name" className="w-full bg-transparent border-b border-ink/10 py-3 focus:border-accent outline-none transition-colors peer text-ink text-sm font-medium" placeholder=" " />
                   <label htmlFor="name" className="absolute left-0 top-3 text-ink/30 peer-focus:text-accent peer-focus:-top-4 transition-all text-[10px] uppercase tracking-widest font-bold pointer-events-none">Company Name</label>
@@ -1062,18 +1062,18 @@ export function MainContent() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-paper py-24 pb-12 border-t border-ink/5">
+      <footer className="bg-paper py-16 md:py-24 pb-12 border-t border-ink/5">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-            <div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+            <div className="sm:col-span-2 lg:col-span-1">
               <div className="mb-6">
                 <img 
                   src="https://fancy-harlequin-ipyvwodwrb.edgeone.app/PT_LOGO-01.png" 
                   alt="PRIMETURN COMPONENTS" 
-                  className="h-12 w-auto"
+                  className="h-10 md:h-12 w-auto"
                 />
               </div>
-              <p className="text-ink/40 text-[10px] font-bold uppercase tracking-widest leading-relaxed mb-6">
+              <p className="text-ink/40 text-[10px] font-bold uppercase tracking-widest leading-relaxed mb-6 max-w-xs">
                 Redefining the landscape of industrial brass hardware through precision engineering.
               </p>
             </div>
@@ -1126,13 +1126,13 @@ const WhatsAppButton = () => (
     href="https://wa.me/919988776655" 
     target="_blank" 
     rel="noopener noreferrer"
-    className="fixed bottom-8 left-8 z-[60] bg-white border border-ink/10 p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
+    className="fixed bottom-4 sm:bottom-8 right-4 sm:right-8 z-[60] bg-white border border-ink/10 p-3 sm:p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group"
   >
     <div className="flex items-center gap-3">
-      <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white">
-        <MessageSquare size={20} />
+      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full flex items-center justify-center text-white">
+        <MessageSquare size={18} className="sm:size-[20px]" />
       </div>
-      <div className="max-w-0 overflow-hidden group-hover:max-w-[150px] transition-all duration-500 ease-in-out">
+      <div className="max-w-0 overflow-hidden group-hover:max-w-[150px] transition-all duration-500 ease-in-out md:block hidden">
         <span className="whitespace-nowrap text-[10px] font-bold uppercase tracking-widest text-ink px-2">Whatapp Us</span>
       </div>
     </div>
